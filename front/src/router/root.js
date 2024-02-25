@@ -2,12 +2,12 @@ import { Suspense, lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
 
 const Loading = <div>Loading...</div>;
-const Main = lazy(() => import("../pages/MainPage"));
+const Index = lazy(() => import("../pages/IndexPage"));
 
 const root = createBrowserRouter([
     {
         path: "",
-        element: <Suspense fallback={Loading}><Main /></Suspense>,
+        element: <Suspense fallback={Loading}><Index /></Suspense>,
     },
 ]);
 

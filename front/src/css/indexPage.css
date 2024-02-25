@@ -1,0 +1,29 @@
+.background {
+    width: 1000px;
+    height: 1000px;
+    overflow: hidden;
+    position: relative;
+
+    background-image: url("../../public/img/back2.png");
+    background-size: 100% 100%;
+}
+
+.background 
+
+.screen {
+    border: 1px solid;
+    position: relative;
+
+    width: 50%;
+    height: 50%;
+    margin: 250px;
+}
+
+.crt {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    transition: top 0.01s ease-in;
+    transition: left 0.01s ease-in;
+}
