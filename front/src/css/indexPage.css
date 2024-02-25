@@ -1,22 +1,29 @@
-.background {
-    width: 1000px;
-    height: 1000px;
+.map {
+    margin: 50px;
+    width: 1500px;
+    height: 1500px;
     overflow: hidden;
+    /* overflow: auto; */
     position: relative;
-
-    background-image: url("../../public/img/back2.png");
-    background-size: 100% 100%;
 }
 
-.background 
+.map .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
-.screen {
+.map .screen {
     border: 1px solid;
     position: relative;
 
+    top: 50%;
+    left: 50%;
+
     width: 50%;
     height: 50%;
-    margin: 250px;
+
+    transform: translate(-50%, -50%);
 }
 
 .crt {
