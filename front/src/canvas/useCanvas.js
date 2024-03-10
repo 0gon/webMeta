@@ -1,4 +1,5 @@
 import { useRef, useEffect } from "react";
+import Character from "./Character";
 
 const useCanvas = (setCanvas) => {
     const canvasRef = useRef(null);
