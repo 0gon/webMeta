@@ -1,10 +1,10 @@
 const init = {};
 
 const imageSrc = {
-    manDown: `url(${process.env.PUBLIC_URL}/img/back.png)`,
-    manUp: `url(${process.env.PUBLIC_URL}/img/front.png)`,
-    manLeft: `url(${process.env.PUBLIC_URL}/img/left.png)`,
-    manRight: `url(${process.env.PUBLIC_URL}/img/right.png)`,
+    manDown: `${process.env.PUBLIC_URL}/img/back.png`,
+    manUp: `${process.env.PUBLIC_URL}/img/front.png`,
+    manLeft: `${process.env.PUBLIC_URL}/img/left.png`,
+    manRight: `${process.env.PUBLIC_URL}/img/right.png`,
 }
 
 const CharacterImages = Object.entries(imageSrc).reduce(
